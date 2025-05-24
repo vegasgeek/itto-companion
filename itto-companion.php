@@ -19,3 +19,4 @@ define( 'ITTO_COMPANION_URL', plugin_dir_url( __FILE__ ) );
 
 // Include admin functionality.
 require_once ITTO_COMPANION_PATH . 'includes/itto-admin.php';
+require_once ITTO_COMPANION_PATH . 'includes/functions.php';

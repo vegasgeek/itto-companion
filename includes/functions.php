@@ -16,7 +16,7 @@ function itto_send_checkin( string $event_key ): bool {
 		return false;
 	}
 
-	$api_key = get_option( 'itto_companion_api_key', '' ) ?? false;
+	$api_key = get_option( 'itto_api_key', '' ) ?? false;
 
 	if ( ! $api_key ) {
 		return false;
